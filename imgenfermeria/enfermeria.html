@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="uicslp.png">
+    <title>Efermeria</title>
+        <style>
+          body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            text-align: center;
+            margin: 0;
+            background-color:  rgb(222, 226, 229);
+        }
+         .header {
+            background-color: rgb(11, 47, 73);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            font-size: 25px;
+            width: 100%;
+        }
+        
+        #logo {
+            width: 100px;
+            display: block;
+            margin: 0 auto 5px auto;
+        }
+        img {
+            width: 100%; 
+            height: auto;
+            vertical-align: middle; 
+            margin-right: 5px;
+        }
+        .contenedor-boton {
+        text-align: left;  
+        padding: 10px;  
+    }
+   
+    .boton-regresar {
+        background-color:rgb(11, 47, 73);
+        color: white;
+        padding: 12px 20px;
+        font-size: 11px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    
+    .boton-regresar:hover {
+        background-color:  #ff6600;
+        transform: scale(1.05);
+    }
+    .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+               .columna-texto {
+            flex: 1;
+            min-width: 300px;
+            padding: 18px;
+            background: white;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            text-align: justify;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+    
+        .columna-imagen {
+            flex: 1;
+            min-width: 300px;
+            padding: 15px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .columna-imagen img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+     
+        @media (max-width: 768px) {
+            .contenedor {
+                flex-direction: column;
+            }  
+        }
+        .resaltado {
+        color: #ff6600;
+        font-family: "cursive"; 
+        font-weight: bold;
+        font-size: 18px;
+        } 
+        .texto-negro {
+        color: #000; 
+        font-weight: bold; 
+        font-size: 18px;
+    }
+       
+    </style>
+</head>
+<body>  
+    <header>
+        <img id="logo" src="../uicslp.png" alt="">
+        <img id="tira" src="../cintillo.png" alt="">
+    </header>
+    <div class="header">LICENCIATURA EN ENFERMERIA.</div>
+    <div class="contenedor-boton">
+        <button class="boton-regresar" onclick="window.location.href='../index.html'">⬅ Inicio</button>
+    </div>
+
+    <div class="contenedor">
+     
+        <div class="columna-texto">
+            <p>
+                <span class="texto-negro">
+                    LA LICENCIATURA EN ENFERMERÍA DE LA UNIVERSIDAD INTERCULTURAL DE SAN LUIS POTOSÍ BRINDA UNA FORMACIÓN 
+                    INTEGRAL QUE PERMITE AL ALUMNO ADQUIRIR LAS COMPETENCIAS NECESARIAS PARA DESEMPEÑAR SUS CONOCIMIENTOS
+                    EN LAS DISTINTAS ÁREAS DE LA SALUD.
+                </span>
+            </p>
+        </div>
+        <div class="columna-imagen">
+            <p> <span class="texto-negro">ENFEMERIA PROPEDUTICA (ADMINISTRACION DE MEDICAMENTOS).</span></p>
+            <img src="E1.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="E2.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="E3.jpg" alt="Imagen relacionada">
+        </div>
+
+        <div class="columna-imagen">
+            <p> <span class="texto-negro">ENFERMERIA COMUNITARIA.</span></p>
+            <img src="ENN1.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENN2.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENN3.jpg" alt="Imagen relacionada">
+        </div>
+
+        <div class="columna-imagen">
+            <p> <span class="texto-negro">GINECOLOGIA Y OBSTETRICIA.</span></p>
+            <img src="EN1.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="EN2.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="EN3.jpg" alt="Imagen relacionada">
+        </div>
+
+        <div class="columna-imagen">
+            <p> <span class="texto-negro">ENFERMERIA PEDIATRICA.</span></p>
+            <img src="ENF1.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENF2.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENF3.jpg" alt="Imagen relacionada">
+        </div>
+
+        <div class="columna-imagen">
+            <p> <span class="texto-negro">ENFERMERIA MEDICO QUIRUGICA.</span></p>
+            <img src="ENFE1.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENFE2.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENFE3.jpg" alt="Imagen relacionada">
+        </div>
+
+        <div class="columna-imagen">
+            <p> <span class="texto-negro">ENFERMERIA GERONTOLOGICA.</span></p>
+            <img src="ENFER1.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENFER2.jpg" alt="Imagen relacionada">
+        </div>
+        <div class="columna-imagen">
+            <img src="ENFER3.jpg" alt="Imagen relacionada">
+        </div>
+      
+        <div class="columna-texto">
+            <p>
+                <span class="texto-negro">LA LICENCIATURA EN ENFERMERÍA DE LA UNIVERSIDAD INTERCULTURAL DE SAN LUIS POTOSÍ BRINDA UNA FORMACIÓN 
+                INTEGRAL QUE PERMITE AL ALUMNO ADQUIRIR LAS COMPETENCIAS NECESARIAS PARA DESEMPEÑAR SUS CONOCIMIENTOS
+                EN LAS DISTINTAS ÁREAS DE LA SALUD.
+                </span>
+                <br><br>
+                <span class="resaltado">
+                    VEN Y FORMA PARTE DE LOS LICENCIADOS EN ENFERMERÍA 
+                    DE LA UICSLP.
+                </span>  
+            </p>
+        </div>
+
+      
+
+
+
+
+    </div>
+
+    <div class="header1">
+        
+        <div class="header"><img id="im" src="../cintillo.png" alt=""></div>
+     </div>
+</body>
+</html>
